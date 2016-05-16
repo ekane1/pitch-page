@@ -13,3 +13,9 @@ console.log(randNum);
 
 //put image on page
 $('img').attr('src', eval('img' + randNum));
+
+$('article').readmore({
+  speed: 200,
+  moreLink: '<a href="#"> &#x1F487; Show</a>',
+  lessLink: '<a href="#"> Hide</a>'
+});
