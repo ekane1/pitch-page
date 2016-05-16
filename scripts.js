@@ -12,7 +12,7 @@ var randNum = Math.floor((Math.random() * 5));
 console.log(randNum);
 
 //put image on page
-$('img').attr('src', eval('img' + randNum));
+$('img').attr('src', eval('img' + randNum)).fadeIn("slow");
 
 $('article').readmore({
   speed: 75,
