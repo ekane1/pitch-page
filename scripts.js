@@ -14,7 +14,6 @@ console.log(randNum);
 //put image on page
 $('img').attr('src', eval('img' + randNum));
 
-$ npm install readmore-js
 $('article').readmore({
   speed: 75,
   lessLink: '<a href="#">Read less</a>'
